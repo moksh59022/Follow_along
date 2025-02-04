@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "\"Madhav\"",
+  "author": "\"Moksh\"",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.7",
