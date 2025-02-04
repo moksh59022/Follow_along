@@ -1,6 +1,6 @@
 # S85_ecommerce
 
-# Milestone 4 - User Model, Controllers & File Uploads
+# Milestone 1 - User Model, Controllers & File Uploads
 
 ## Introduction 🚀
 Welcome to Milestone 4! In this milestone, we will focus on enhancing our backend by implementing a User Model, setting up controllers to handle user-related data, and enabling file uploads using Multer. By the end of this milestone, you will have a structured way to store user data, manage interactions, and support file uploads.
