@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# Milestone-4
 # Ecommerce_Follow_Along
 
 

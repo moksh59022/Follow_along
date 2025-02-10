@@ -7,7 +7,11 @@
     "dev": "nodemon/backend/server.js",
     "start": "node backend/server.js"
   },
+ milestone_4
+  "author": "\"Moksh\"",
+
   "author": "Moksh",
+ main
   "license": "ISC",
   "description": "",
   "dependencies": {
