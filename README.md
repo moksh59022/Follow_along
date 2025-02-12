@@ -1,5 +1,5 @@
 
-# Milestone 5
+# Milestone 6
 
 # Ecommerce_Follow_Along
 
