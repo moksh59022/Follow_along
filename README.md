@@ -1,4 +1,6 @@
-# Milestone-4
+
+# Milestone 5
+
 # Ecommerce_Follow_Along
 
 
@@ -85,4 +87,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> ba0c703 (login page)
