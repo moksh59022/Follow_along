@@ -1,4 +1,4 @@
-# Milestone 7 - Login Endpoint
+# Milestone 8 - Login Endpoint
 
 ## Overview
 This milestone involves creating a login endpoint that allows users to authenticate using their email/username and password.
