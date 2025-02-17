@@ -1,54 +1,10 @@
-# Milestone 8 - Login Endpoint
-
-## Overview
-This milestone involves creating a login endpoint that allows users to authenticate using their email/username and password.
-
-## Steps
-
-### 1. Create Login Endpoint
-- Accept user credentials (email/username and password).
-- Retrieve the corresponding user from the database.
-
-### 2. Validate Password
-- Use bcrypt to hash the entered password.
-- Compare it with the stored hashed password for authentication.
-
-## Technologies Used
-- Node.js / Express (or relevant backend framework)
-- bcrypt for password hashing
-- Database (MongoDB, PostgreSQL, etc.)
-
-## Installation & Setup
-1. Clone the repository:
-   sh
-   git clone <repository_url>
-   
-2. Install dependencies:
-   sh
-   npm install
-   
-3. Run the application:
-   sh
-   npm start
-   
-
-## API Endpoint
-### Login
-*POST* /api/login
-#### Request Body
-json
-{
-  "email": "user@example.com",
-  "password": "yourpassword"
-}
-
-#### Response
-json
-{
-  "message": "Login successful",
-  "token": "your-jwt-token"
-}
-
-
-## License
-This project is licensed under the MIT License.
+Milestone 9: Product Input Form 🚀
+✅ Product Form Implementation
+Designed a form for adding product details such as name, price, and description.
+Implemented an option for uploading multiple product images.
+✅ Database Integration
+Structured the form to send product data to the backend for storage in MongoDB.
+Ensured proper validation and error handling.
+✅ README Update
+Documented Milestone 9 progress in this README file.
+This milestone focused on enabling product input, which is essential for expanding the e-commerce platform by allowing users to add new products dynamically.
