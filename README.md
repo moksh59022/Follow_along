@@ -1,11 +1,19 @@
-## Milestone 10: Product Schema and API Endpoint 🚀
+# Milestone 12: Product Page Implementation 🚀
 
-### ✅ Product Schema Implementation
-- Defined a *Product Schema* in Mongoose.
-- Implemented validation for fields like name, price, and image URL.
+## Overview
+In this milestone, I developed the **Product Page** that displays products created by the logged-in user. If a user creates a product on the **Create Product Page** using their email ID, it will be visible on their **Product Page**.
 
-### ✅ API Endpoint for Adding Products
-- Created a *POST* endpoint to store product details in MongoDB.
-- Ensured proper validation before saving the data.
+## Key Features ✅
+- **User-Specific Product Display**: Products created using a particular email ID are shown on the corresponding user's Product Page.
+- **Dynamic Fetching**: The page fetches product data from the backend dynamically.
+- **Seamless Integration**: Integrated with the existing product creation and authentication system.
 
----
+## Implementation Details ⚙️
+### 1️⃣ Backend Enhancements
+- **Updated Product Schema**: Added an `email` field to associate products with the creator's email ID.
+- **Created API Endpoint**: Developed a new GET endpoint to fetch products based on the logged-in user's email.
+
+### 2️⃣ Frontend Enhancements
+- **Product Page Component**: Designed a dedicated page to display user-specific products.
+- **API Integration**: Implemented API calls to fetch products using the logged-in user’s email.
+- **Dynamic Rendering**: Fetched products are dynamically displayed on the Product Page.

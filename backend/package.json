@@ -7,7 +7,7 @@
     "dev": "nodemon/server.js",
     "start": "node server.js"
   },
-  "author": "MOksh",
+  "author": "Moksh",
   "license": "ISC",
   "description": "",
   "dependencies": {
