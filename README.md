@@ -1,11 +1,12 @@
-## Milestone 14: Deleting Products 🚀
+# Milestone 16: Product Info Page 🚀  
 
-### ✅ Backend Delete Endpoint
-- Created an endpoint to delete a product by its ID from MongoDB.
-- Implemented logic to find the product and remove it from the database.
-### ✅ Frontend Delete Button
-- Added a Delete button to each product card.
-- When clicked, it sends the product ID to the server endpoint for deletion.
-### ✅ Updating UI After Deletion
-- Ensured the product is removed from the frontend dynamically after successful deletion.
-- Implemented confirmation prompts before deletion for better user experience.
+## ✅ Creating the Product Info Page  
+- Designed a `Product Info` page to display detailed product information.  
+
+## ✅ Adding Quantity Selection and Cart Button  
+- Implemented a **Quantity Selector** to allow users to choose the desired quantity.  
+- Added an **Add to Cart** button to facilitate easy product purchase.  
+
+## ✅ Dynamic Data Rendering  
+- Integrated **backend API calls** to fetch and display product details dynamically.  
+- Ensured the page updates based on the selected product.  
