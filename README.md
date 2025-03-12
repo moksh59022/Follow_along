@@ -1,13 +1,15 @@
-
-### **Milestone 17: Adding Products to Cart**  
-- ✅ **Updating User Schema**  
-  - Modified the User Schema to include a `cart` field for storing added products.  
-- ✅ **Cart Schema Implementation**  
-  - Created a Cart Schema in Mongoose to store cart product details.  
-- ✅ **Backend Cart Endpoint**  
-  - Developed an API endpoint to receive product details and store them in the cart collection in MongoDB.  
-- ✅ **API Integration**  
-  - Ensured that product details are properly received from the frontend and stored in the cart.  
+### **Milestone 19: Cart Page UI & Quantity Management**  
+- ✅ **Frontend Cart Page**  
+  - Created a dedicated Cart Page UI to display products inside the cart.  
+  - Integrated the frontend with the backend endpoint from Milestone 18 to fetch cart items.  
+- ✅ **Quantity Management**  
+  - Implemented `+` (increase) and `-` (decrease) buttons for each cart product.  
+  - Users can modify product quantities dynamically.  
+- ✅ **Backend Endpoints for Quantity Update**  
+  - Created API endpoints to handle incrementing and decrementing the product quantity inside the cart.  
+  - Integrated these endpoints with the frontend.  
 - ✅ **Testing and Validation**  
-  - Implemented input validation to ensure correct product details are stored.  
-  - Tested API responses to confirm successful cart storage.  
+  - Ensured smooth UI interaction for increasing and decreasing quantities.  
+  - Tested API responses to validate quantity updates.  
+
+---  
