@@ -1,12 +1,11 @@
-### Milestone 20: User Profile Page 🚀  
+## Milestone 22: Address API Integration 🌐
 
-✅ *Backend & API Integration*  
-- Created an endpoint to send **user profile data** (photo, name, email, and address).  
-- Implemented **authentication** and **error handling** for secure access.  
-- Integrated the frontend to fetch and display user details dynamically.  
+✅ Backend Endpoint Implementation
+- Created an API endpoint to receive the address from the frontend.
+- Validated and stored the address in the `address` array inside the user collection.
 
-✅ *Frontend Profile Page*  
-- Designed a **Profile Page** displaying **profile photo, name, and email**.  
-- Added an **Address Section** with an **"Add Address"** button.  
-- Displayed **"No address found"** if no address is available.  
-- Ensured smooth **UI updates** when adding an address. 🚀  
+✅ Database Integration
+- Updated the user schema to ensure multiple addresses can be stored.
+- Implemented authentication and error handling for secure address updates.
+
+Now, users can add their address, and it will be stored successfully! 🚀
