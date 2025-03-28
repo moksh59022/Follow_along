@@ -1,13 +1,13 @@
-## Milestone 23: Address Selection for Orders 🛒
+## Milestone 24: Order Summary Page 🛍️
 
-✅ Cart Page Enhancement
-- Added a "Place Order" button inside the cart page.
-- Navigated to the "Select Address" page when clicked.
+✅ Display Ordered Products
+- Listed all products the user is ordering.
 
-✅ Address Selection Page
-- Displayed all available addresses of the user.
-- Provided an option to select one address for the order.
+✅ Address Confirmation
+- Displayed the selected delivery address.
 
-✅ Backend API Implementation
-- Created an endpoint to fetch and send all saved addresses of the user.
-- Ensured authentication and proper error handling.
+✅ Cart Value Calculation
+- Showed the total value of the cart.
+
+✅ Place Order Button
+- Added a "Place Order" button at the bottom for final confirmation.
