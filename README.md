@@ -1,13 +1,13 @@
-## Milestone 24: Order Summary Page 🛍️
+Milestone 25: Order Processing Backend ⚙️
 
-✅ Display Ordered Products
-- Listed all products the user is ordering.
+✅ Order API Implementation
 
-✅ Address Confirmation
-- Displayed the selected delivery address.
+Created an endpoint to receive products, user, and address details.
 
-✅ Cart Value Calculation
-- Showed the total value of the cart.
+Retrieved the _id of the user using their email.
 
-✅ Place Order Button
-- Added a "Place Order" button at the bottom for final confirmation.
+✅ Order Storage
+
+Stored each product as a separate order with the same address.
+
+Used the existing Order schema to save order details in MongoDB.
