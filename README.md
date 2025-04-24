@@ -1,12 +1,19 @@
-### Milestone 33: JWT Authentication Setup 🔑
-✅ Install jsonwebtoken Package
-- Installed jsonwebtoken package via NPM: npm install jsonwebtoken.
-- Added it to the project to handle JWT generation.
+### Milestone 34: Validating JWT Token from Cookie 🔐
 
-✅ Generate and Set Expiry for JWT
-- Used sign() method from jsonwebtoken to create a token with email and ID.
-- Set maxAge to define the token's expiration time.
+✅ Extracting JWT from Cookie  
+- Retrieved the JWT token from the browser’s cookie storage.  
+- Sent the token to the backend with each request.
 
-✅ Store Token in Response Cookie
-- Added the generated JWT to the response cookie.
-- Configured the cookie to be stored in the browser for subsequent requests.
+✅ JWT Token Validation  
+- Created a middleware in the backend to validate the incoming JWT token.  
+- Used `verify()` method from `jsonwebtoken` to decode and verify token authenticity.  
+
+✅ Route Protection  
+- Applied the JWT validation middleware to secure routes.  
+- Ensured only authenticated users can access protected pages.
+
+✅ Benefits  
+- Enhances app security by verifying token on every request.  
+- Prevents unauthorized access to sensitive routes and pages.
+
+--- 
